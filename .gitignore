@@ -1,0 +1,43 @@
+# Local .terraform directories 
+**/.terraform/*
+.terraform
+*.plan
+.terraform.d
+.terraform.lock.hcl
+tfplan
+tfplan.txt
+
+# .tfstate 
+*.tfstate
+*.tfstate.*
+
+# service account key
+credentials.json
+.vscode
+.idea
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+.DS_Store
+*.swp
+
+key.json
